@@ -1,6 +1,6 @@
 <div class="row">
-    <div class="col s4"></div>
-    <div class="col s4">
+    <div class="col s4 m0"></div>
+    <div class="col s12 m4 l4">
         <br>
         <br>
         <a class="btn blue" href="/">Back</a>
@@ -20,5 +20,5 @@
             </div>
         </div>
     </div>
-    <div class="col s4"></div>
+    <div class="col s4 m0"></div>
 </div>

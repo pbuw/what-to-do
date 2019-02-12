@@ -1,10 +1,10 @@
 <br>
 <div class="row">
-    <div class="col s4"></div>
-    <div class="col s4">
+    <div class="col s4 m0"></div>
+    <div class="col s12 m4 l4">
         <nav class="center-align">
-            <div class="nav-wrapper">
-                <div class="input-field">
+            <div class="blue nav-wrapper">
+                <div class="blue input-field">
                     <input class="blue white-text" placeholder="Search what to do" id="myInput" oninput="myFunction()" id="search" type="search" required>
                     <label class="label-icon" for="search"><i class="material-icons">search</i></label>
                     <i class="material-icons">close</i>
@@ -12,23 +12,23 @@
             </div>
         </nav>
     </div>
-    <div class="col s4"></div>
+    <div class="col s4 m0"></div>
 </div>
 <div class="row">
-    <div class="col s4"></div>
-    <div class="col s4">
+    <div class="col s4 m0"></div>
+    <div class="col s12 m4 l4">
         <div class="card">
             <div class="card-content">
-                <div class="card-title"><a href="?site=what-to-do">Hallo</a></div>
+                <div class="card-title"><a href="?site=what-to-do">Outlook funktioniert nicht</a></div>
             </div>
         </div>
         <div class="card">
             <div class="card-content">
-                <div class="card-title">zeme</div>
+                <div class="card-title"><a href="?site=what-to-do">Skype funktioniert nicht</a></div>
             </div>
         </div>
     </div>
-    <div class="col s4"></div>
+    <div class="col s4 m0"></div>
 </div>
 <script>
     function myFunction() {
