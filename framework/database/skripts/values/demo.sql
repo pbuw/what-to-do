@@ -1,0 +1,3 @@
+INSERT INTO `wtd` (`wtdId`, `title`, `comment`, `tags`) VALUES (NULL, 'Outlook funktioniert nicht', '', 'Outlook login probleme '), (NULL, 'Abwesenheitsvorbereitung', 'unter https://www.html5rocks.com/en/tutorials/webdatabase/todo/ gibts ein Turorial zu etwas', 'Abwesenheit Ferien ük kurs letzter tag');
+INSERT INTO `tasks` (`taskId`, `content`, `position`, `wtdId`) VALUES (NULL, 'PC neu starten', '1', '1'), (NULL, 'Abwesenheitsnachricht', '1', '2');
+INSERT INTO `INSERT INTO `tasks` (`taskId`, `content`, `position`, `wtdId`) VALUES (NULL, 'An- und Abmelden', '2', '1'), (NULL, 'Ämtli weiterleiten', '2', '2');tasks` (`taskId`, `content`, `position`, `wtdId`) VALUES (NULL, 'An- und Abmelden', '2', '1'), (NULL, 'Ämtli weiterleiten', '2', '2');

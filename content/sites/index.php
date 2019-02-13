@@ -1,3 +1,9 @@
+<?php
+include "framework/logic/databaseController.php";
+$dbcontroller = new databaseController();
+
+$wtds = $dbcontroller->getWTDs();
+?>
 <br>
 <div class="row">
     <div class="col s4 m0"></div>
@@ -19,7 +25,7 @@
     <div class="col s12 m4 l4">
         <div class="card">
             <div class="card-content">
-                <div class="card-title"><a href="?site=what-to-do">Outlook funktioniert nicht</a></div>
+                <div class="card-title"><a href="?site=what-to-do"><?php echo $wtds["1"]["1"] ?><span class="hide"><?php echo $wtds["1"]["3"] ?></span></a></div>
             </div>
         </div>
         <div class="card">
